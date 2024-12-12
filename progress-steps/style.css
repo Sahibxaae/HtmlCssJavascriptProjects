@@ -81,3 +81,8 @@ body{
     background-color: var(--line-border-empty);
     cursor: not-allowed;
 }
+@media (max-width: 480px) {
+    .container {
+      width: 100vw;
+    }
+}
