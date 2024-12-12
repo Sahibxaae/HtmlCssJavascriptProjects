@@ -84,5 +84,11 @@ body{
 @media (max-width: 480px) {
     .container {
       width: 100vw;
+      text-align: center;
+    }
+    .progress-container{
+        max-width: 100%;
+        width: 400px;
+        margin-left: 15px;
     }
 }
