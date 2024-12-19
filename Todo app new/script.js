@@ -18,3 +18,7 @@ addBtn.addEventListener('click',(event)=>{
     addTask.value="";
     }
 })
+ function complete(id){
+    const element = document.getElementById(id);
+    element.remove(id);
+ }
