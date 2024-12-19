@@ -20,5 +20,14 @@ addBtn.addEventListener('click',(event)=>{
 })
  function complete(id){
     const element = document.getElementById(id);
-    element.remove(id);
+    if(element){
+    element.remove();
+    }
+    list.splice(id,1);
+    const items = document.querySelectorAll('#todo li');
+    items.forEach((item,index)=>{
+        item.id=index; 
+    })   
  }
+
+ 
