@@ -27,10 +27,12 @@ addBtn.addEventListener('click',(event)=>{
     const items = document.querySelectorAll('#todo li');
     items.forEach((item,index)=>{
         item.id=index; 
+        const button = item.querySelector('.delete-button');
+        button.setAttribute('onclick', `complete(${index})`);
     })   
  }
 function toggleStrike(){
-    const checkbox = document.getElementById("todo-${list.length-1}");
+    const checkbox = document.getElementById(`todo-${list.length-1}`);
     const label = document.querySelector(".todo-text");
     if(checkbox.checked){
         label.style.textDecoration="line-through";

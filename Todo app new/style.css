@@ -32,7 +32,6 @@ input[type="text"] {
     outline: none;
     border: solid 2px rgba(255, 166, 0, 0.26);
     border-radius: 20px;
-    background-color: black;
     color: white;
     padding: 1rem;
     font-size: 1rem;
@@ -61,11 +60,6 @@ footer{
 }
 ::-webkit-scrollbar {
     width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: orange;
   }
   
   /* Handle */
