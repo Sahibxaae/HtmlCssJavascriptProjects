@@ -4,20 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rotating Navigation bar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <section class="container">
+        <div class="circle-container">
+            <div class="circle">
+              <button id="close">
+                <svg xmlns="http://www.w3.org/2000/svg" color="#fff" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z"/></svg>
+              </button>
+              <button id="open">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
+              </button>
+            </div>
+          </div>
         <h1>Amazing article</h1>
         <small>Florin pop</small>
-        <article class="article">
+        <article class="article content">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ratione voluptate reiciendis maiores earum possimus reprehenderit animi est ab, harum molestias aliquid mollitia quas iste nulla magnam itaque ipsum error.
             Voluptatibus commodi rem ullam unde voluptatum dignissimos aliquid quo molestiae porro est velit, aperiam culpa eveniet magni quas iure ipsa ex odit temporibus perspiciatis reprehenderit sunt modi obcaecati? Consequuntur, maiores?
             A id corporis possimus eos omnis quaerat! Praesentium, placeat esse nobis voluptatibus delectus dolores! Placeat maiores amet cum necessitatibus tempora earum excepturi laboriosam minus quas officia, sit aliquid illo cupiditate.
             Delectus hic illum sint praesentium quae rerum sunt molestias maxime! Repudiandae consequuntur eum odio iusto beatae velit debitis. Eos cumque nulla quam velit autem aspernatur neque aut harum tempora qui!
             A molestias perspiciatis nihil, maiores autem veniam natus quasi iusto praesentium nam facilis, incidunt, eum placeat soluta quam tempore voluptatem dicta perferendis voluptas. Quidem aperiam, laboriosam veniam nisi suscipit corporis!</p>
-        </article>
-        <article class="article">
             <h2 >My Cat</h2>
             <img class="cat article" src="https://images.pexels.com/photos/2558605/pexels-photo-2558605.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="cat" >
             <p class="article">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis suscipit obcaecati sequi repudiandae alias ipsa autem similique voluptatibus inventore corrupti, expedita ad tempora delectus animi voluptatem numquam laborum veniam molestias.
@@ -26,5 +35,13 @@
             Voluptate dolores dicta rem. Ad atque eius aut error delectus, temporibus consequuntur ipsum eaque dolorem unde reiciendis libero, dolores totam maiores rerum aliquam vitae in molestiae laborum odio. Facere, possimus!</p>
         </article>
     </section>
+    <nav>
+        <ul>
+          <li><i class="fas fa-home"></i><a href="#"> Home</a></li>
+          <li><i class="fas fa-user-alt"></i><a href="#"> About</a></li>
+          <li><i class="fas fa-envelope"></i><a href="#"> Contact</a></li>
+        </ul>
+      </nav>
+    <script src="script.js"></script>
 </body>
 </html>
