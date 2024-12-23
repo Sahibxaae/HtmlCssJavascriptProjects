@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin:0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.bg{
+    background: url('https://images.pexels.com/photos/29877242/pexels-photo-29877242/free-photo-of-majestic-godafoss-waterfall-in-icelandic-landscape.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')
+    no-repeat center center/cover;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    position: absolute;
+    z-index: -1;
+    top: -30px;
+    left:-30px;
+    filter: blur(0px);
+}
+.load {
+    font-size: 50px;
+    color: #fff;
+  }
