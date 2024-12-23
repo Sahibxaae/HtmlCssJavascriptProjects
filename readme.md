@@ -1,3 +1,4 @@
+Html, css and javascript mini Projects
 | Projects                        | Demo                                                                                     |
 |---------------------------------|------------------------------------------------------------------------------------------|
 | 1. Expanding Cards              | [Live Demo](https://sahibxaae.github.io/HtmlCssJavascriptProjects/expanding%20cards/)    |
