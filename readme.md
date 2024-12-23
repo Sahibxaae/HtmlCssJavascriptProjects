@@ -1,4 +1,4 @@
-#Html, css and javascript mini Projects
+# Html, css and javascript mini Projects
 
 | Projects                        | Demo                                                                                     |
 |---------------------------------|------------------------------------------------------------------------------------------|
