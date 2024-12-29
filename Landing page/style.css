@@ -66,7 +66,7 @@ ul li:hover{
     cursor: pointer;
 }
 .login-signup .login-btn:hover{
-    color: #8459e8;
+    color: #8459e83c;
 }
 .login-signup .signup-btn{
     font-weight: 600;
@@ -79,7 +79,7 @@ ul li:hover{
     cursor: pointer;
 }
 .login-signup .signup-btn:hover{
-    background-color:#8459e83c;
+    background-color:#615f5f;
 }
 
 .sec1-art1 h2{
