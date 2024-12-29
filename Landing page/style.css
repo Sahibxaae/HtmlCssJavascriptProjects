@@ -46,7 +46,7 @@ ul li:hover{
     color:#8459e8;
 }
 .section-1 h4{
-    background-color: rgba(132, 89, 232, 0.237);
+    background-color: #8459e83c;
     width: 165px;
     padding:0.4rem 1rem;
     border-radius: 20px;
@@ -67,5 +67,6 @@ ul li:hover{
     padding:0.5rem 1rem;
 }
 .login-signup .signup-btn:hover{
-    
+    border:#8459e8 2px solid;
+    background-color:#8459e83c ;
 }
