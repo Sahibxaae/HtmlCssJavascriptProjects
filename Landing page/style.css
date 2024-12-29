@@ -21,6 +21,7 @@ nav{
 
 h1{
     color: #8459e8;
+    padding: 0 2.5rem;
 }
 h1 span{
     font-style:oblique;
@@ -45,6 +46,11 @@ ul li:first-child{
 ul li:hover{
     color:#8459e8;
 }
+.section-1{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 2.4rem 3rem;
+}
 .section-1 h4{
     background-color: #8459e83c;
     width: 165px;
@@ -57,6 +63,10 @@ ul li:hover{
     border: none;
     font-weight:600;
     margin-right: 10px;
+    cursor: pointer;
+}
+.login-signup .login-btn:hover{
+    color: #8459e8;
 }
 .login-signup .signup-btn{
     font-weight: 600;
@@ -65,8 +75,53 @@ ul li:hover{
     border:none;
     border-radius: 20px;
     padding:0.5rem 1rem;
+    transition: ease 0.2s;
+    cursor: pointer;
 }
 .login-signup .signup-btn:hover{
-    border:#8459e8 2px solid;
-    background-color:#8459e83c ;
+    background-color:#8459e83c;
+}
+
+.sec1-art1 h2{
+    font-size: 2rem;
+    font-weight: 800;
+    word-wrap: break-word;
+    padding: 1rem 0;
+}
+.sec1-art1 p{
+    color: #615f5f;
+}
+.sec1-art1 button{
+    color:#fff;
+    background: transparent;
+    border: none;
+    padding: 0.7rem 2rem;
+    background-color: #8459e8;
+    border-radius: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.sec1-art1 .users{
+    margin-left: 40px;
+}
+.sec1-art1 .user-num{
+    font-size: 1.2rem;
+    color: #8459e8;
+    padding: 0;
+    margin-top: 1rem;
+}
+.sec1-art1 button:hover{
+    background-color: #615f5f;
+}
+
+.sec1-art2{
+    width: 400px;
+    background-color: #8459e83c;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+.sec1-art2 img{
+    width: 550px;
+    height: 350px;
 }
