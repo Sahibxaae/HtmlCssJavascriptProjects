@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    background-color: #eee6db;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+h1{
+    color: #8459e8;
+}
+h1 span{
+    font-style:oblique;
+}
+ul{
+    display: flex;
+    gap: 1.8rem;
+    background-color: #fff;
+    padding: 0.6rem 1rem;
+    border-radius: 20px;
+    border: #8080803f solid 2px;
+}
+ul li{
+    list-style: none;
+    font-weight: 600;
+    color: #615f5f;
+    cursor: pointer;
+}
+ul li:first-child{
+    color: #8459e8;
+}
+ul li:hover{
+    color:#8459e8;
+}
+.section-1 h4{
+    background-color: rgba(132, 89, 232, 0.237);
+    width: 165px;
+    padding:0.4rem 1rem;
+    border-radius: 20px;
+    color: #8459e8;
+}
+.login-signup .login-btn{
+    background: transparent;
+    border: none;
+    font-weight:600;
+    margin-right: 10px;
+}
+.login-signup .signup-btn{
+    font-weight: 600;
+    background-color:#8459e8;
+    color:#fff;
+    border:none;
+    border-radius: 20px;
+    padding:0.5rem 1rem;
+}
+.login-signup .signup-btn:hover{
+    
+}
