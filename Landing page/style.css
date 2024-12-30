@@ -11,6 +11,7 @@ body{
     width: 100%;
     background-color: #eee6db;
     overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
 }
 
 nav{
@@ -130,6 +131,8 @@ ul li:hover{
     top: -45px;
     z-index: 1;
     left: 80px;
+    pointer-events: none; 
+    user-select: none;  
 }
 .bg-color{
     width: 400px;
