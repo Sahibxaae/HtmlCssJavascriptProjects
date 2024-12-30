@@ -7,3 +7,4 @@
 | 3. |[Rotating Navigation Animation](https://github.com/Sahibxaae/HtmlCssJavascriptProjects/tree/main/rotating%20nav%20animation) | [Live Demo](https://sahibxaae.github.io/HtmlCssJavascriptProjects/rotating%20nav%20animation/) |    
 | 4. |[Blurry Loading](https://github.com/Sahibxaae/HtmlCssJavascriptProjects/tree/main/rotating%20nav%20animation)                | [Live Demo](https://sahibxaae.github.io/HtmlCssJavascriptProjects/Blurry%20Loading/)           |
 | 5. |[Scroll animation](https://github.com/Sahibxaae/HtmlCssJavascriptProjects/tree/main/Scroll%20animation)                      | [Live Demo](https://sahibxaae.github.io/HtmlCssJavascriptProjects/Scroll%20animation/)         |
+| 6. |[Landing page](https://github.com/Sahibxaae/HtmlCssJavascriptProjects/tree/main/Landing%20page)                              | [Live Demo](https://sahibxaae.github.io/HtmlCssJavascriptProjects/Landing%20page/)             |
