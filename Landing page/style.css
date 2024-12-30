@@ -10,6 +10,7 @@ body{
     font-family: 'Inter', sans-serif;
     width: 100%;
     background-color: #eee6db;
+    overflow-x: hidden;
 }
 
 nav{
@@ -64,6 +65,7 @@ ul li:hover{
     font-weight:600;
     margin-right: 10px;
     cursor: pointer;
+    outline: none;
 }
 .login-signup .login-btn:hover{
     color: #8459e83c;
@@ -77,6 +79,7 @@ ul li:hover{
     padding:0.5rem 1rem;
     transition: ease 0.2s;
     cursor: pointer;
+    outline: none;
 }
 .login-signup .signup-btn:hover{
     background-color:#615f5f;
@@ -115,13 +118,23 @@ ul li:hover{
 }
 
 .sec1-art2{
-    width: 400px;
-    background-color: #8459e83c;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     border-radius: 10px;
 }
 .sec1-art2 img{
-    width: 550px;
-    height: 350px;
+    width: 250px;
+    height: 400px;
+    position: relative;
+    top: -45px;
+    z-index: 1;
+    left: 80px;
+}
+.bg-color{
+    width: 400px;
+    height: 310px;
+    background-color:#8459e83c;
+    position: absolute;
+    border-radius: 8px;
 }
