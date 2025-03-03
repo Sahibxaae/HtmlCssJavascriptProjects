@@ -8,14 +8,15 @@ async function searchWord() {
         if (!response.ok) throw new Error('Word not found');
         
         const data = await response.json();
-        console.log(data);
+        // console.log(data);
 
         let definitionsHTML = "";
 
         // Loop through all meanings
         data[0].meanings.forEach(meaning => {
             let definitionsList = meaning.definitions.map(def => `<p>${def.definition}</p>`).join('');
-
+            // console.log(definitionsList);
+            
             definitionsHTML += `
                 <div class="${meaning.partOfSpeech}">
                     <h3>${meaning.partOfSpeech}</h3>
