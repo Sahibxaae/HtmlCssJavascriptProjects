@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+header{
+    background-color: orange;
+    padding: 0.7rem;
+}
+h1{
+    text-align: center;
+}

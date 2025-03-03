@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Defino Dictionary</h1>
+    </header>
+    <main>
+      <section class="sec-1">
+        <div class="search">
+          <input type="text" id="word" placeholder="Enter a word..." />
+          <button>
+            <img
+              src="./image/search-svgrepo-com.svg"
+              alt=""
+              width="25"
+              height="25"
+              onclick="searchWord()"
+            />
+          </button>
+        </div>
+        <div class="def-box" id="def-box">
+          <div class="word">
+            <h2>Hello</h2>
+            <audio src=""></audio>
+            <img
+              src="./image/audio-svgrepo-com.svg"
+              alt=""
+              width="18"
+              height="18"
+            />
+          </div>
+          <div class="dic-detail">
+            <div class="noun">
+              <h3>noun</h3>
+              <p>"Hello!" or an equivalent greeting.</p>
+            </div>
+            <div class="verb">
+              <h3>verb</h3>
+              <p>To greet with "hello".</p>
+            </div>
+            <div class="definition">
+              <h3>Definition:</h3>
+              <p>
+                "A call for response if it is not clear if anyone is present or
+                listening, or if a telephone conversation may have been
+                disconnected."
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; Copyrights all rights reserved 2025</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
